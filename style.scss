@@ -1,0 +1,47 @@
+body{
+    margin:0;
+}
+
+$g:rgb(115, 115, 115);
+
+
+@mixin box($color:pink){
+    color:$g;
+    background-color:$color;
+    width:200px;
+    height:300px;
+    border:2px solid $g;
+}
+/*
+.flex{
+    display:flex;
+    gap:5px;
+}
+*/
+.hello{
+    display:inline-block;
+    vertical-align:top;
+    input{
+        margin:{
+            left:10px;
+            top:10px;
+        }
+    }
+    @include box();
+    h1{
+        background-color:rgb(238, 206, 219);
+    }
+    &Java{
+        @include box();
+        background-color:rgb(175, 202, 255);
+    }
+}
+
+.helloCss{
+    @extend .hello;
+}
+
+
+
+
+

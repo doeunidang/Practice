@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+/*
+.flex{
+    display:flex;
+    gap:5px;
+}
+*/
+.hello, .helloCss {
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(115, 115, 115);
+  background-color: pink;
+  width: 200px;
+  height: 300px;
+  border: 2px solid rgb(115, 115, 115);
+}
+.hello input, .helloCss input {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.hello h1, .helloCss h1 {
+  background-color: rgb(238, 206, 219);
+}
+.helloJava {
+  color: rgb(115, 115, 115);
+  background-color: pink;
+  width: 200px;
+  height: 300px;
+  border: 2px solid rgb(115, 115, 115);
+  background-color: rgb(175, 202, 255);
+}/*# sourceMappingURL=style.css.map */
